@@ -1,13 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Tickers from "./components/Tickers.js";
 
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magi happen!</h2>
+      <div className="App-header">
+        <h2>Cryptocurrency Ticker</h2>
+      </div>
+      <Tickers />
     </div>
   );
 }
